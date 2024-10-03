@@ -7,6 +7,8 @@
     min-width: 1440px;
     height: 80px;
     margin-bottom: 40px;
+    position: relative;  
+    
 }
 
 .navList {
@@ -14,6 +16,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+    
 }
 
 .logo {
@@ -25,6 +28,10 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 
+.navItem {
+  position: relative;  
+}
+
 
 
 .navItem a {
@@ -33,7 +40,8 @@ background-clip: text;
   align-items: center;    
   text-decoration: none;  
   color: #000; 
-  transition: scale cubic-bezier(0.215, 0.610, 0.355, 1);           
+  transition: scale cubic-bezier(0.215, 0.610, 0.355, 1);
+          
 }
 
 .navItem a:hover {
@@ -43,8 +51,15 @@ background-clip: text;
     
 }
 
-.navItem a svg {
-  margin-bottom: 8px;     
+.navItemIcon {
+  margin-bottom: 8px;  
+  transition: color 500ms ease;   
+}
+
+.navItemIcon:hover
+.navItemIcon.active
+ {
+  color: linear-gradient(234deg, #260dc1 0%, #59006f 100%);
 }
 
 
@@ -54,6 +69,15 @@ background-clip: text;
   font-weight: 300;   
   color: #454545;  
   
+}
+
+
+.shopCart {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 450px;
+  background-color: #000;
 }
 
 

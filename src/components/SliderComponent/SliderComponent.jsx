@@ -20,7 +20,11 @@ const SliderComponent = () => {
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
-      style={{ height: "260px", backgroundColor: "#0C0C0C", marginBottom: "40px" }}
+      style={{
+        height: "260px",
+        backgroundColor: "#0C0C0C",
+        marginBottom: "40px",
+      }}
     >
       <SwiperSlide>
         <div className={styles.container}>
@@ -28,7 +32,7 @@ const SliderComponent = () => {
             <h3 className={styles.heading}>Умная колонка</h3>
             <span>СКИДКА 30%</span>
             <p className={styles.text}>при покупке второго товара</p>
-            <img src="/src/Images/hero/image 6.png" alt="Slide 1" />
+            <img src="/public/img/Store/Catalog/jbl.png" alt="Slide 1" />
           </a>
         </div>
       </SwiperSlide>
@@ -38,7 +42,10 @@ const SliderComponent = () => {
             <h3 className={styles.heading}>Lorem, ipsum.</h3>
             <span>СКИДКА 30%</span>
             <p className={styles.text}>Lorem ipsum dolor sit.</p>
-            <img src="..hero/image 6.png" alt="Slide 1" />
+            <img
+              src="/public/img/Store/Catalog/Blue-Headset-Background-PNG-Image.png"
+              alt="Slide 1"
+            />
           </a>
         </div>
       </SwiperSlide>
@@ -48,7 +55,7 @@ const SliderComponent = () => {
             <h3 className={styles.heading}>Умная колонка</h3>
             <span>СКИДКА 30%</span>
             <p className={styles.text}>при покупке второго товара</p>
-            <img src="..hero/image 6.png" alt="Slide 1" />
+            <img src="/public/img/Store/Catalog/laptop.png" alt="Slide 1" />
           </a>
         </div>
       </SwiperSlide>
@@ -58,7 +65,7 @@ const SliderComponent = () => {
             <h3 className={styles.heading}>Умная колонка</h3>
             <span>СКИДКА 30%</span>
             <p className={styles.text}>при покупке второго товара</p>
-            <img src="..hero/image 6.png" alt="Slide 1" />
+            <img src="/public/img/Store/Catalog/Apple-Watch-Background-PNG-Image.png" alt="Slide 1" />
           </a>
         </div>
       </SwiperSlide>

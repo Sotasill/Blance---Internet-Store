@@ -1,9 +1,13 @@
 import Searchbar from "../Searchbar/Searchbar";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FiShoppingCart, FiUser } from "react-icons/fi";
+import { useState } from "react";
 import css from './MainMenu.module.css'
 
 const MainMenu = () => {
+
+  let [cartOpen, setCartOpen] = useState(false);
+
   return (
     <div className={css.container}>
       <a href="#" alt="logo">
@@ -20,9 +24,21 @@ const MainMenu = () => {
               <span>Каталог</span>
             </a>
           </li>
+
           <li className={css.navItem}>
             <a href="#" alt="cart">
-              <FiShoppingCart size={22} className={css.navItemIcon} />
+              <FiShoppingCart
+                onClick={() => setCartOpen((prevState) => !prevState)}
+                size={22}
+                className={`${css.navItemIcon} ${cartOpen ? css.active : ""}`}
+              />
+
+              {cartOpen && (
+                <div className={css.shopCart}>
+                  
+                </div>
+              )}
+
               <span>Корзина</span>
             </a>
           </li>

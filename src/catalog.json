@@ -1,37 +1,47 @@
 [
     {
-        "img": "./Images/Store/Catalog/Mask group.jpg",
+        "img": "/public/img/Store/Catalog/smatphone.png",
         "text": "Смартфоны",
         "id": "1"
     },
 
     {
-        "img": "./Images/Store/Catalog/Mask group-1.jpg",
+        "img": "/public/img/Store/Catalog/laptop.png",
         "text": "Ноутбуки",
         "id": "2"
     },
 
     {
-        "img": "./Images/Store/Catalog/Mask group-2.jpg",
+        "img": "/public/img/Store/Catalog/monitor.png",
         "text": "Компьютеры",
         "id": "3"
     },
 
     {
-        "img": "./Images/Store/Catalog/Mask group-3.jpg",
+        "img": "/public/img/Store/Catalog/tv.png",
         "text": "Телевизоры",
         "id": "4"
     },
 
     {
-        "img": "./Images/Store/Catalog/Mask group-4.jpg",
+        "img": "/public/img/Store/Catalog/tablet.png",
         "text": "Планшеты",
         "id": "5"
     },
 
     {
-        "img": "./Images/Store/Catalog/Mask group-5.jpg",
+        "img": "/public/img/Store/Catalog/jbl.png",
         "text": "Колонки",
         "id": "6"
-    }
+    },
+    {
+    "img": "/public/img/Store/Catalog/Blue-Headset-Background-PNG-Image.png",
+    "text": "Наушники",
+    "id": "7"
+  },
+  {
+    "img": "/public/img/Store/Catalog/Apple-Watch-Background-PNG-Image.png",
+    "text": "Умные часы",
+    "id": "8"
+  }
 ]
