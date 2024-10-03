@@ -1,0 +1,37 @@
+[
+    {
+        "img": "./Images/Store/Catalog/Mask group.jpg",
+        "text": "Смартфоны",
+        "id": "1"
+    },
+
+    {
+        "img": "./Images/Store/Catalog/Mask group-1.jpg",
+        "text": "Ноутбуки",
+        "id": "2"
+    },
+
+    {
+        "img": "./Images/Store/Catalog/Mask group-2.jpg",
+        "text": "Компьютеры",
+        "id": "3"
+    },
+
+    {
+        "img": "./Images/Store/Catalog/Mask group-3.jpg",
+        "text": "Телевизоры",
+        "id": "4"
+    },
+
+    {
+        "img": "./Images/Store/Catalog/Mask group-4.jpg",
+        "text": "Планшеты",
+        "id": "5"
+    },
+
+    {
+        "img": "./Images/Store/Catalog/Mask group-5.jpg",
+        "text": "Колонки",
+        "id": "6"
+    }
+]

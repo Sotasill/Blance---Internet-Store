@@ -16,19 +16,19 @@ const MainMenu = () => {
         <ul className={css.navList}>
           <li className={css.navItem}>
             <a href="#" alt="catalog">
-              <GiHamburgerMenu size={22} />
+              <GiHamburgerMenu size={22} className={css.navItemIcon} />
               <span>Каталог</span>
             </a>
           </li>
           <li className={css.navItem}>
             <a href="#" alt="cart">
-              <FiShoppingCart size={22} />
+              <FiShoppingCart size={22} className={css.navItemIcon} />
               <span>Корзина</span>
             </a>
           </li>
           <li className={css.navItem}>
             <a href="#" alt="profile">
-              <FiUser size={22} />
+              <FiUser size={22} className={css.navItemIcon} />
               <span>Профиль</span>
             </a>
           </li>

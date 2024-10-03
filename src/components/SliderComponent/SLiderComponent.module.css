@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 71px;
+}
+
+.heading {
+  font-size: 40px;
+  color: #FFFFFF;
+
+}
+
+.text {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+a span {
+  font-size: 20px;
+  color: #EBBA1A;
+}
+
+
+  /* .heading: {
+    fontSize: "48px",
+    marginBottom: "20px",
+  },
+  .paragraph: {
+    fontSize: "18px",
+    marginBottom: "30px",
+  },
+  .image: {
+    width: "600px",
+    height: "400px",
+    objectFit: "cover",
+  }, */
+
+
+  
